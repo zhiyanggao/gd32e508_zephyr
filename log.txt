@@ -1,0 +1,2 @@
+20230410
+    删除gd32h8xx-afio.h和gd32h8xx-pinctrl.h相关的内容

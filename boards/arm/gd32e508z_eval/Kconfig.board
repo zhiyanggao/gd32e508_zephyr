@@ -1,0 +1,9 @@
+# Copyright (c) 2022, Teslabs Engineering S.L.
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_GD32E508Z_EVAL
+	bool "GigaDevice GD32E508Z-EVAL"
+	depends on SOC_GD32E508
+
+	select USE_GD32_USBHS
+	select USE_GD32_CAN
